@@ -5,7 +5,7 @@ maybe some C++14).
 The code implements the following enhancement to the API of Eigen.
 
 * Alias types, functions, and enum flags to follow a more Standard C++
-  Library/Boost naming convention. These aliases include member functions,
+  Library/Boost like naming convention. These aliases include member functions,
   member types, and member constants as well. Exmpales: `eig::mat` instead of
   `Eigen::Matrix`, `mat<...>::static_rows` instead of
   `Matrix<...>::RowsAtCompileTime`, and so on.
